@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b0636"/>
+      <stop offset=".6" stop-color="#5a0f63"/>
+      <stop offset="1" stop-color="#ff2bd6"/>
+    </linearGradient>
+    <radialGradient id="moon" cx=".4" cy=".4" r=".6">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".7" stop-color="#bff9ff"/>
+      <stop offset="1" stop-color="#29f0ff"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#sky)"/>
+  <g stroke="#29f0ff" stroke-opacity=".35" stroke-width="2">
+    <path d="M0 420h600M0 450h600M0 485h600M0 525h600M0 572h600"/>
+    <path d="M300 400L-60 600M300 400L60 600M300 400L180 600M300 400L300 600M300 400L420 600M300 400L540 600M300 400L660 600"/>
+  </g>
+  <circle cx="300" cy="260" r="120" fill="#29f0ff" filter="url(#glow)" opacity=".6"/>
+  <circle cx="300" cy="260" r="110" fill="url(#moon)"/>
+  <g fill="#1b0636">
+    <rect x="190" y="230" width="220" height="8"/><rect x="190" y="254" width="220" height="10"/><rect x="190" y="282" width="220" height="13"/><rect x="190" y="314" width="220" height="16"/>
+  </g>
+  <text x="300" y="80" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="46" fill="#fff" letter-spacing="10">LUNA VOSS</text>
+  <text x="300" y="545" text-anchor="middle" font-family="Courier New, monospace" font-size="30" font-weight="700" fill="#29f0ff" letter-spacing="8">MIDNIGHT STATIC</text>
+</svg>

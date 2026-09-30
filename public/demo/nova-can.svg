@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 380">
+  <defs>
+    <linearGradient id="body" x1="0" x2="1">
+      <stop offset="0" stop-color="#041a66"/>
+      <stop offset=".18" stop-color="#0a4bff"/>
+      <stop offset=".38" stop-color="#7fd0ff"/>
+      <stop offset=".52" stop-color="#1f5cff"/>
+      <stop offset="1" stop-color="#021042"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" x2="1">
+      <stop offset="0" stop-color="#7d8799"/>
+      <stop offset=".4" stop-color="#f4f7fb"/>
+      <stop offset=".7" stop-color="#aeb7c6"/>
+      <stop offset="1" stop-color="#5d6677"/>
+    </linearGradient>
+  </defs>
+  <path d="M30 34c0-10 36-18 80-18s80 8 80 18v12H30z" fill="url(#metal)"/>
+  <ellipse cx="110" cy="30" rx="72" ry="12" fill="#c9d1dc"/>
+  <ellipse cx="110" cy="30" rx="60" ry="8" fill="#8e98a8"/>
+  <rect x="96" y="22" width="36" height="10" rx="5" fill="#dfe5ee"/>
+  <path d="M22 50h176v280c0 10-4 18-8 22H30c-4-4-8-12-8-22z" fill="url(#body)"/>
+  <path d="M22 50h176l-8-8H30z" fill="url(#metal)"/>
+  <path d="M30 352h160c-4 10-36 18-80 18s-76-8-80-18z" fill="url(#metal)"/>
+  <circle cx="110" cy="170" r="58" fill="#fff" fill-opacity=".12"/>
+  <path d="M52 250c40-30 76-30 116 0" stroke="#7fe3ff" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <text x="110" y="182" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="44" fill="#fff" letter-spacing="1">NOVA</text>
+  <text x="110" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#bfe8ff" letter-spacing="8">ZERO</text>
+  <rect x="48" y="60" width="9" height="266" rx="4" fill="#fff" fill-opacity=".45"/>
+  <g fill="#fff" fill-opacity=".55"><circle cx="160" cy="90" r="3"/><circle cx="74" cy="300" r="2.5"/><circle cx="150" cy="286" r="3.5"/><circle cx="170" cy="140" r="2"/></g>
+</svg>

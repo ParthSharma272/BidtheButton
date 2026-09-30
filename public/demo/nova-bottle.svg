@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 520">
+  <defs>
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop offset="0" stop-color="#0a2a8f"/>
+      <stop offset=".22" stop-color="#2f6bff"/>
+      <stop offset=".45" stop-color="#8fd8ff"/>
+      <stop offset=".6" stop-color="#1d55ff"/>
+      <stop offset="1" stop-color="#061a5c"/>
+    </linearGradient>
+    <linearGradient id="liquid" x1="0" x2="1">
+      <stop offset="0" stop-color="#021038"/>
+      <stop offset=".35" stop-color="#0b3ad6"/>
+      <stop offset=".5" stop-color="#3f86ff"/>
+      <stop offset="1" stop-color="#020c2e"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" x2="1">
+      <stop offset="0" stop-color="#9aa6b8"/>
+      <stop offset=".45" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#6c778a"/>
+    </linearGradient>
+    <linearGradient id="label" x1="0" x2="1">
+      <stop offset="0" stop-color="#d9ecff"/>
+      <stop offset=".4" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#b9d6ff"/>
+    </linearGradient>
+    <radialGradient id="drop" cx=".35" cy=".3" r=".7">
+      <stop offset="0" stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".5" stop-color="#bfe6ff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".1"/>
+    </radialGradient>
+  </defs>
+  <rect x="76" y="8" width="48" height="26" rx="5" fill="url(#cap)"/>
+  <g stroke="#6c778a" stroke-width="1.2" opacity=".6">
+    <path d="M80 12v18M86 12v18M92 12v18M98 12v18M104 12v18M110 12v18M116 12v18M122 12v18"/>
+  </g>
+  <path d="M80 34h40v36c0 30 46 62 46 118v290c0 18-14 32-32 32H66c-18 0-32-14-32-32V188c0-56 46-88 46-118z" fill="url(#glass)"/>
+  <path d="M40 210c0-10 2-18 6-26h108c4 8 6 16 6 26v268c0 15-11 26-26 26H66c-15 0-26-11-26-26z" fill="url(#liquid)"/>
+  <rect x="34" y="258" width="132" height="120" fill="url(#label)"/>
+  <rect x="34" y="258" width="132" height="8" fill="#0a4bff"/>
+  <rect x="34" y="370" width="132" height="8" fill="#0a4bff"/>
+  <text x="100" y="320" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="38" font-weight="900" fill="#0a2a8f" letter-spacing="1">NOVA</text>
+  <text x="100" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#0a4bff" letter-spacing="6">COLA</text>
+  <path d="M58 90c-8 20-14 44-14 90v280" stroke="#fff" stroke-opacity=".55" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M150 220v240" stroke="#fff" stroke-opacity=".18" stroke-width="4" stroke-linecap="round"/>
+  <g fill="url(#drop)">
+    <ellipse cx="62" cy="410" rx="4" ry="6"/><ellipse cx="140" cy="430" rx="3" ry="5"/><ellipse cx="118" cy="226" rx="3.5" ry="5"/>
+    <ellipse cx="76" cy="452" rx="2.5" ry="4"/><ellipse cx="150" cy="300" rx="3" ry="4.5"/><ellipse cx="54" cy="240" rx="2.5" ry="3.5"/>
+    <ellipse cx="128" cy="470" rx="4" ry="6"/><ellipse cx="96" cy="410" rx="2" ry="3"/><ellipse cx="46" cy="330" rx="3" ry="4.5"/>
+  </g>
+</svg>
